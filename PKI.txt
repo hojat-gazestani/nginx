@@ -15,12 +15,12 @@ openssl
 mkdir first
 openssl req -nodes -days 10 -newkey rsa:2048 -keyout keyfile.pem -out certfile.pem
 Country Name: 		CA
-State :				Ontario
-Location :			Toronto
-ON:					Bootstrap IT
-OU:					[]
+State :			Ontario
+Location :		Toronto
+ON:			Bootstrap IT
+OU:			[]
 Common Name:		www.bootstrap-it.com / hojat.com
-Email:				info@bootstrap.com
+Email:			info@bootstrap.com
 A challenge Pass:	password
 An optional Compan:	[]
 
